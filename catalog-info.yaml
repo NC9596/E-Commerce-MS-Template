@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: E-Commerce-MS-Template
+  annotations:
+    github.com/project-slug: NC9596/E-Commerce-MS-Template
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group: NC9596
+  providesApis:
+    - CustomerManagement
+    - ProductManagement
+    - OrderManagement
+    - PaymentManagement
